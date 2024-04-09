@@ -1,0 +1,135 @@
+h1{
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #a2a9b1;
+
+}
+h2{
+    font-weight: normal;
+    unicode-bidi: isolate;
+    border-bottom: 1px solid #a2a9b1;
+}
+h3{
+    font-family: sanserif;
+}
+#test{
+    text-align: justify;
+    text-indent: 24px;
+    line-height: 32px;
+    word-spacing: 5px;
+}
+p{
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: orange;
+}
+
+
+
+
+
+
+.ul1 {
+    list-style-type: none;
+}
+
+.ul1 > li {
+    counter-increment: section;
+    list-style-type: none;
+}
+
+.ul1 > li:before {
+    content: counter(section) ". ";
+}
+
+.ul1 ul > li {
+    counter-increment: subsection;
+    list-style-type: none;
+}
+
+.ul1 ul > li:before {
+    content: counter(section) "." counter(subsection) " ";
+}
+
+.ul1 ul ul > li {
+    counter-increment: subsubsection;
+    list-style-type: none;
+}
+
+.ul1 ul ul > li:before {
+    content: counter(section) "." counter(subsection) "." counter(subsubsection) " ";
+} 
+
+
+
+#f1 {
+    margin:10px;
+    background:#e5e5e5;
+    border: 1px solid #878787;
+    padding: 4px;
+    float: right;
+}
+
+#f1 img {
+    width: 450px;
+    aspect-ratio: auto 450 / 275;
+    height: 275px;
+}
+#f1 figcaption{
+    font-size: 16px;
+    height: 15px;
+}
+
+#f2 {
+    width:221px;
+    height:275px;
+    margin:10px;
+    background:#e5e5e5;
+    border: 1px solid #878787;
+    padding: 4px;
+    float: right;
+}
+
+#f2 img {
+    width: 220px;
+    aspect-ratio: auto 220 / 165;
+    height: 165px;
+}
+#f2 figcaption{
+    font-size: 16px;
+}
+
+#f3 {
+    margin:10px;
+    background:#e5e5e5;
+    border: 1px solid #878787;
+    padding: 4px;
+    float: right;
+
+}
+
+#f3 img {
+    width: 280px;
+    aspect-ratio: auto 280 / 263;
+    height: 263px;
+}
+#f3cap1{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#f3cap2{
+    font-size: 16px;
+}
